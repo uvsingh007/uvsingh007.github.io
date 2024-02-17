@@ -16,10 +16,10 @@
     z-index: 10;
 }
 
-.nav-menu{
+#nav-menu{
     font-size:20px;
     font-weight: 600;
-    padding: 1% 5%;
+    padding: 0% 5%;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -81,6 +81,7 @@
 
 .boldtext{
     font-weight: 800;
+    /* color: #ef4444; */
 }
 
 .socials{
@@ -186,9 +187,83 @@
     font-size: 50px;
     color: white;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+.pro-cards{
+    margin-top: 30px;
 }
 
 .project-card{
-    color:white
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+}
+
+.pro-img{
+    filter:grayscale(100%);
+    transition: all 0.2s ease-in-out;
+}
+
+.pro-img:hover{
+    filter:grayscale(00%);
+}
+
+.pro-img>img{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pro-cont{
+    flex:0.5;
+}
+
+.project-num{
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.project-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.project-description{
+    line-height: 25px;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+    color:#71717a;
+}
+
+.project-tech-stack>img{
+    height: 40px;
+    filter: grayscale(100%);
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+
+.project-tech-stack>img:hover{
+    filter: grayscale(0%);
+    scale: 1.05;
+    transition: all 0.2s ease-in-out;
+}
+
+.project-github-link{
+    text-decoration: none;
+    padding:10px;
+}
+
+.project-depolyed-link{
+    text-decoration: none;
+    padding:10px;
+}
+
+.red{
+    color: #ef4444;
 }

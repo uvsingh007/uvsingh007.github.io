@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="header">
-    <nav class="nav-menu">
+    <nav id="nav-menu">
       <div id="logo">
         <img id="logo-img" src="./assets/logobg.png" alt="logo"/>
       </div>
@@ -28,7 +28,7 @@
   </header>
   <section id="home" >
     <div class="home-cont">
-      <h1>Hello,<br> I'am <span id="user-detail-name" class="boldtext">Yuvraj Singh.</span> <br> <span class="boldtext">Fullstack </span> <span>Developer</span> <br> </h1>
+      <h1>Hello,<br> I'am <span id="user-detail-name " class="boldtext red">Yuvraj Singh.</span> <br> <span class="boldtext">Fullstack </span> <span>Developer</span> <br> </h1>
       <p id="user-detail-intro" >Full Stack Developer with strong skills in Java and frontend technologies (HTML, CSS, JavaScript). Proficient in Data Structures and Algorithms (DSA)</p>
       <div class="socials">
           <a><img height="50px" src="./assets/socials/linkedin.svg" /></a>
@@ -45,7 +45,7 @@
         <img class="home-img" src="./assets/myself.jpg"/>
       </div>
       <div class="about-cont">
-        <h1>About <span class="boldtext">Me</span></h1>
+        <h1>About <span class="boldtext red">Me</span></h1>
         <p>
           <!-- Hey there! 👋 I'm Yuvraj Singh, a passionate full-stack web developer based in Delhi, India. With a blend of creativity and technical expertise, I craft elegant and efficient solutions to bring ideas to life on the web.<br>
           As a full-stack developer, I'm proficient in both front-end and back-end technologies. From crafting responsive and user-friendly interfaces with HTML, CSS, and JavaScript to architecting robust server-side applications with frameworks like Node.js. I thrive on tackling challenges at every layer of the stack.<br>
@@ -55,7 +55,7 @@
       </div>
   </section>
   <section id="skills">
-    <h1>My <span class="boldtext">Skills</span></h1>
+    <h1>My <span class="boldtext red">Skills</span></h1>
     <div class="cards">
       <div class="skills-card">
         <img class="skills-card-img" src="./assets/skills/html.svg" />
@@ -108,31 +108,58 @@
     </div>
   </section>
   <section id="projects">
-    <h1>My <span class="boldtext">Projects</span></h1>
+    <h1>My <span class="boldtext red">Projects</span></h1>
     <div class="pro-cards">
       <div class="project-card">
         <div class="pro-img">
           <img src="./assets/projects/digitalpay.png"/>
         </div>
         <div class="pro-cont">
-          <h1 class="boldtext">01</h1>
+          <h1 class="boldtext project-num">01</h1>
           <h3 class="project-title boldtext">Digital Pay</h3>
-          <p class="project-description">Digital Pay is an online payment portal facilitating swift transactions with features like sending money, transaction records, and inviting contacts. Utilizing HTML, CSS, JavaScript, and Bootstrap, it ensures a responsive interface. JSON server manages data, enabling user authentication via fetch and local storage for seamless data transmission. This project serves to apply knowledge gained in the Masai journey, fostering teamwork and practical experience. With a focus on user interaction and real-time transaction monitoring, Digital Pay aims to streamline online payments while offering a seamless experience for account holders.</p>
+          <p class="project-description">Digital Pay is an online payment portal facilitating swift transactions with features like sending money, transaction records, and inviting contacts. Utilizing HTML, CSS, JavaScript, and Bootstrap, it ensures a responsive interface. JSON server manages data, enabling user authentication via fetch and local storage for seamless data transmission. Digital Pay aims to streamline online payments while offering a seamless experience for account holders.</p>
           <div class="project-tech-stack"><img src="./assets/skills/html.svg"/><img src="./assets/skills/css.svg"/><img src="./assets/skills/javascript.svg"/></div>
-          <a href="https://github.com/uvsingh007/web-dev-ratna-8765" class="project-github-link">Github Repo</a>
-          <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" class="project-depolyed-link">Deployed Link</a>
+          <a href="https://github.com/uvsingh007/web-dev-ratna-8765" target="_blank" class="project-github-link red">Github Repo</a>
+          <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" target="_blank" class="project-depolyed-link red">Deployed Link</a>
         </div>
       </div>
       <div class="project-card">
         <div class="pro-img">
-          <img/>
+          <img src="./assets/projects/apexcrafts.png" />
         </div>
         <div class="pro-cont">
-          <h3 class="project-title"></h3>
-          <p class="project-description"></p>
-          <div class="project-tech-stack"><img src=""/><img src=""/><img src=""/></div>
-          <a href="" class="project-github-link"></a>
-          <a href="" class="project-depolyed-link"></a>
+          <h1 class="boldtext project-num">02</h1>
+          <h3 class="project-title boldtext">Apex Crafts</h3>
+          <p class="project-description boldtext">Apex Crafts is an online portfolio builder website designed to establish users' online presence effectively. Utilizing vibrant colors and smooth transitions, the desktop version offers a user-friendly and interactive experience. Its purpose is to showcase the services and projects of the Apex Crafts agency, aiding in client attraction and providing easily accessible online presence. Each section details various aspects of the company, including reviews, services, employees, and deliveries.</p>
+          <div class="project-tech-stack"><img src="./assets/skills/html.svg"/><img src="./assets/skills/css.svg"/></div>
+          <a href="https://github.com/uvsingh007/hissing-copper-9121" target="_blank" class="project-github-link red">Github Repo</a>
+          <a href="https://hissing-copper-9121.vercel.app/" target="_blank" class="project-depolyed-link red">Deployed Link</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="pro-img">
+          <img src="./assets/projects/digitalpay.png"/>
+        </div>
+        <div class="pro-cont">
+          <h1 class="boldtext project-num">03</h1>
+          <h3 class="project-title boldtext">Digital Pay</h3>
+          <p class="project-description">Digital Pay is an online payment portal facilitating swift transactions with features like sending money, transaction records, and inviting contacts. Utilizing HTML, CSS, JavaScript, and Bootstrap, it ensures a responsive interface. JSON server manages data, enabling user authentication via fetch and local storage for seamless data transmission. Digital Pay aims to streamline online payments while offering a seamless experience for account holders.</p>
+          <div class="project-tech-stack"><img src="./assets/skills/html.svg"/><img src="./assets/skills/css.svg"/><img src="./assets/skills/javascript.svg"/></div>
+          <a href="https://github.com/uvsingh007/web-dev-ratna-8765" target="_blank" class="project-github-link red">Github Repo</a>
+          <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" target="_blank" class="project-depolyed-link red">Deployed Link</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="pro-img">
+          <img src="./assets/projects/apexcrafts.png" />
+        </div>
+        <div class="pro-cont">
+          <h1 class="boldtext project-num">04</h1>
+          <h3 class="project-title boldtext">Apex Crafts</h3>
+          <p class="project-description boldtext">Apex Crafts is an online portfolio builder website designed to establish users' online presence effectively. Utilizing vibrant colors and smooth transitions, the desktop version offers a user-friendly and interactive experience. Its purpose is to showcase the services and projects of the Apex Crafts agency, aiding in client attraction and providing easily accessible online presence. Each section details various aspects of the company, including reviews, services, employees, and deliveries.</p>
+          <div class="project-tech-stack"><img src="./assets/skills/html.svg"/><img src="./assets/skills/css.svg"/></div>
+          <a href="https://github.com/uvsingh007/hissing-copper-9121" target="_blank" class="project-github-link red">Github Repo</a>
+          <a href="https://hissing-copper-9121.vercel.app/" target="_blank" class="project-depolyed-link red">Deployed Link</a>
         </div>
       </div>
     </div>
