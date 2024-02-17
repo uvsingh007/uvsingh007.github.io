@@ -89,6 +89,15 @@
     align-items: center;
     margin-top: 30px;
     gap: 30px;
+    
+}
+
+.socials>a{
+    transition: all 0.2s ease-in-out;
+}
+
+.socials>a:hover{
+    scale: 1.05;  
 }
 
 #about{
@@ -257,11 +266,13 @@
 .project-github-link{
     text-decoration: none;
     padding:10px;
+    color: #ef4444;
 }
 
 .project-depolyed-link{
     text-decoration: none;
     padding:10px;
+    color: #ef4444;
 }
 
 .red{
