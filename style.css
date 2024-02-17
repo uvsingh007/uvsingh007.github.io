@@ -248,6 +248,9 @@
     filter:grayscale(0%);
 }
 
+.project-card:hover .pro-cont .project-tech-stack>img{
+    filter: grayscale(0%);
+}
 .project-num{
     font-size: 30px;
     padding-bottom: 10px;
@@ -278,7 +281,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-.project-github-link,.project-depolyed-link{
+.project-github-link,.project-deployed-link{
     text-decoration: none;
     padding:10px;
     color: #ef4444;
@@ -308,12 +311,12 @@
     margin-bottom: 30px;  
 }
 
-#statistics>img{
+#statistics img{
     filter: grayscale(100%);
     cursor: pointer;
 }
 
-#statistics>img:hover{
+#statistics img:hover{
     filter: grayscale(0%);
 }
 
@@ -332,6 +335,10 @@
 
 .statistics-container>img:hover{
     filter:grayscale(0%);
+}
+
+.calendar{
+    height: unset !important;
 }
 
 #contact{
