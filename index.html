@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yuvraj Singh || Portfolio</title>
-  <link rel="stylesheet" href="./style.css">
-  <link
-   rel="stylesheet"
-   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-  />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 </head>
+
 <body>
   <header class="header">
     <nav id="nav-menu">
       <div id="logo">
-        <img id="logo-img" src="./assets/logobg.png" alt="logo"/>
+        <img id="logo-img" src="./assets/logobg.png" alt="logo" />
       </div>
       <div class="nav-links">
         <a href="#home" class="nav-link home">Home</a>
         <a href="#about" class="nav-link about">About Me</a>
         <a href="#skills" class="nav-link skills">Skills</a>
         <a href="#projects" class="nav-link projects">Projects</a>
-        <a class="nav-link contact">Contact Me</a>
+        <a href="#contact" class="nav-link contact">Contact Me</a>
       </div>
       <div class="resume-div">
-        <a href="./assets/resume/Yuvraj-Singh-Resume.pdf"  onclick="window.open('https://drive.google.com/file/d/11iMuqy-4XvFHnKdaevoQu_XaGdTsV8-v/view?usp=drive_link')"
-        target="_blank" download="Yuvraj-Singh-Resume.pdf" class="nav-link resume" id="resume-button-1" href="#">Resume <svg id="resume-button-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M16.5 11.5V12.5C16.5 13.9001 16.5 14.6002 16.2275 15.135C15.9878 15.6054 15.6054 15.9878 15.135 16.2275C14.6002 16.5 13.9001 16.5 12.5 16.5H5.5C4.09987 16.5 3.3998 16.5 2.86502 16.2275C2.39462 15.9878 2.01217 15.6054 1.77248 15.135C1.5 14.6002 1.5 13.9001 1.5 12.5V11.5M13.1667 7.33333L9 11.5M9 11.5L4.83333 7.33333M9 11.5V1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg></a>         
+        <a href="./assets/resume/Yuvraj-Singh-Resume.pdf"
+          onclick="window.open('https://drive.google.com/file/d/11iMuqy-4XvFHnKdaevoQu_XaGdTsV8-v/view?usp=drive_link')"
+          target="_blank" download="Yuvraj-Singh-Resume.pdf" class="nav-link resume" id="resume-button-1"
+          href="#">Resume
+          <svg id="resume-button-2" width="18" height="18" viewBox="0 0 18 18" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M16.5 11.5V12.5C16.5 13.9001 16.5 14.6002 16.2275 15.135C15.9878 15.6054 15.6054 15.9878 15.135 16.2275C14.6002 16.5 13.9001 16.5 12.5 16.5H5.5C4.09987 16.5 3.3998 16.5 2.86502 16.2275C2.39462 15.9878 2.01217 15.6054 1.77248 15.135C1.5 14.6002 1.5 13.9001 1.5 12.5V11.5M13.1667 7.33333L9 11.5M9 11.5L4.83333 7.33333M9 11.5V1.5"
+              stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg></a>
       </div>
     </nav>
   </header>
-  <section id="home" >
+  <section id="home">
     <div class="home-cont">
-      <h1>Hello,<br> I'am <span id="user-detail-name " class="boldtext red">Yuvraj Singh.</span> <br> <span class="boldtext">Fullstack </span> <span>Developer</span> <br> </h1>
-      <p >Full Stack Developer with strong skills in Java and frontend technologies (HTML, CSS, JavaScript). Proficient in Data Structures and Algorithms (DSA)</p>
+      <h1>
+        Hello,<br />
+        I'am
+        <span id="user-detail-name " class="boldtext red">Yuvraj Singh</span>
+        <br />
+        <span class="boldtext">Fullstack </span> <span>Developer</span> <br />
+      </h1>
+      <p>
+        Full Stack Developer with strong skills in Java and frontend
+        technologies (HTML, CSS, JavaScript). Proficient in Data Structures
+        and Algorithms (DSA)
+      </p>
       <div class="socials">
-          <a href="https://www.linkedin.com/in/uvsingh007/" target="_blank"><img height="50px" src="./assets/socials/linkedin.svg" /></a>
-          <a href="https://github.com/uvsingh007" target="_blank"><img height="45px" src="./assets/socials/github.svg" /></a>
-          <a href="https://www.instagram.com/_uvsingh/" target="_blank"><img height="40px" src="./assets/socials/instagram.svg"/></a>
+        <a class="contact-linkedin" href="https://www.linkedin.com/in/uvsingh007/" target="_blank"><img height="50px"
+            src="./assets/socials/linkedin.svg" /></a>
+        <a class="contact-github" href="https://github.com/uvsingh007" target="_blank"><img height="45px"
+            src="./assets/socials/github.svg" /></a>
+        <a href="https://www.instagram.com/_uvsingh/" target="_blank"><img height="40px"
+            src="./assets/socials/instagram.svg" /></a>
       </div>
     </div>
     <div class="hero-img">
@@ -46,15 +64,28 @@
     </div>
   </section>
   <section id="about" class="about section">
-      <div class="about-img">
-        <img class="home-img" src="./assets/myself.jpg"/>
-      </div>
-      <div class="about-cont">
-        <h1>About <span class="boldtext red">Me</span></h1>
-        <p id="user-detail-intro">
-          Hey there! 👋 I'm Yuvraj Singh, a passionate full-stack web developer based in Delhi, India. With a unique blend of creativity and technical expertise, I specialize in crafting elegant and efficient solutions to bring ideas to life on the web. As a full-stack developer, I possess proficiency in both front-end and back-end technologies, allowing me to seamlessly integrate sleek and responsive interfaces using HTML, CSS, and JavaScript with robust server-side applications built on frameworks like Node.js. I thrive on tackling challenges at every layer of the stack, whether it's optimizing database performance, troubleshooting complex issues, or building a sleek e-commerce platform. I firmly believe in the power of collaboration and communication, and I make it a priority to understand the unique needs of each project. By doing so, I strive to deliver tailor-made solutions that not only meet but exceed expectations.
-        </p>
-      </div>
+    <div class="about-img">
+      <img class="home-img" src="./assets/myself.jpg" />
+    </div>
+    <div class="about-cont">
+      <h1>About <span class="boldtext red">Me</span></h1>
+      <p id="user-detail-intro">
+        Hey there! 👋 I'm Yuvraj Singh, a passionate full-stack web developer
+        based in Delhi, India. With a unique blend of creativity and technical
+        expertise, I specialize in crafting elegant and efficient solutions to
+        bring ideas to life on the web. As a full-stack developer, I possess
+        proficiency in both front-end and back-end technologies, allowing me
+        to seamlessly integrate sleek and responsive interfaces using HTML,
+        CSS, and JavaScript with robust server-side applications built on
+        frameworks like Node.js. I thrive on tackling challenges at every
+        layer of the stack, whether it's optimizing database performance,
+        troubleshooting complex issues, or building a sleek e-commerce
+        platform. I firmly believe in the power of collaboration and
+        communication, and I make it a priority to understand the unique needs
+        of each project. By doing so, I strive to deliver tailor-made
+        solutions that not only meet but exceed expectations.
+      </p>
+    </div>
   </section>
   <section id="skills">
     <h1>My <span class="boldtext red">Skills</span></h1>
@@ -114,15 +145,27 @@
     <div class="pro-cards">
       <div class="project-card">
         <div class="pro-img">
-          <img src="./assets/projects/digitalpay.png"/>
+          <img src="./assets/projects/digitalpay.png" />
         </div>
         <div class="pro-cont">
           <h1 class="boldtext project-num">01</h1>
           <h3 class="project-title boldtext">Digital Pay</h3>
-          <p class="project-description">Digital Pay is an online payment portal facilitating swift transactions with features like sending money, transaction records, and inviting contacts. Utilizing HTML, CSS, JavaScript, and Bootstrap, it ensures a responsive interface. JSON server manages data, enabling user authentication via fetch and local storage for seamless data transmission.</p>
-          <div class="project-tech-stack"><img src="./assets/skills/html.svg"/><img src="./assets/skills/css.svg"/><img src="./assets/skills/javascript.svg"/></div>
-          <a href="https://github.com/uvsingh007/web-dev-ratna-8765" target="_blank" class="project-github-link">Github Repo</a>
-          <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" target="_blank" class="project-depolyed-link">Deployed Link</a>
+          <p class="project-description">
+            Digital Pay is an online payment portal facilitating swift
+            transactions with features like sending money, transaction
+            records, and inviting contacts. Utilizing HTML, CSS, JavaScript,
+            and Bootstrap, it ensures a responsive interface. JSON server
+            manages data, enabling user authentication via fetch and local
+            storage for seamless data transmission.
+          </p>
+          <div class="project-tech-stack">
+            <img src="./assets/skills/html.svg" /><img src="./assets/skills/css.svg" /><img
+              src="./assets/skills/javascript.svg" />
+          </div>
+          <a href="https://github.com/uvsingh007/web-dev-ratna-8765" target="_blank" class="project-github-link">Github
+            Repo</a>
+          <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" target="_blank" class="project-depolyed-link">Deployed
+            Link</a>
         </div>
       </div>
       <div class="project-card">
@@ -132,23 +175,47 @@
         <div class="pro-cont">
           <h1 class="boldtext project-num">02</h1>
           <h3 class="project-title boldtext">Apex Crafts</h3>
-          <p class="project-description boldtext">Apex Crafts is an online portfolio builder website designed to establish users' online presence effectively. Utilizing vibrant colors and smooth transitions, the desktop version offers a user-friendly and interactive experience. Its purpose is to showcase the services and projects of the Apex Crafts agency, aiding in client attraction and providing easily accessible online presence</p>
-          <div class="project-tech-stack"><img src="./assets/skills/html.svg"/><img src="./assets/skills/css.svg"/></div>
-          <a href="https://github.com/uvsingh007/hissing-copper-9121" target="_blank" class="project-github-link">Github Repo</a>
-          <a href="https://hissing-copper-9121.vercel.app/" target="_blank" class="project-depolyed-link">Deployed Link</a>
+          <p class="project-description boldtext">
+            Apex Crafts is an online portfolio builder website designed to
+            establish users' online presence effectively. Utilizing vibrant
+            colors and smooth transitions, the desktop version offers a
+            user-friendly and interactive experience. Its purpose is to
+            showcase the services and projects of the Apex Crafts agency,
+            aiding in client attraction and providing easily accessible online
+            presence
+          </p>
+          <div class="project-tech-stack">
+            <img src="./assets/skills/html.svg" /><img src="./assets/skills/css.svg" />
+          </div>
+          <a href="https://github.com/uvsingh007/hissing-copper-9121" target="_blank" class="project-github-link">Github
+            Repo</a>
+          <a href="https://hissing-copper-9121.vercel.app/" target="_blank" class="project-depolyed-link">Deployed
+            Link</a>
         </div>
       </div>
       <div class="project-card">
         <div class="pro-img">
-          <img src="./assets/projects/digitalpay.png"/>
+          <img src="./assets/projects/digitalpay.png" />
         </div>
         <div class="pro-cont">
           <h1 class="boldtext project-num">03</h1>
           <h3 class="project-title boldtext">Digital Pay</h3>
-          <p class="project-description">Digital Pay is an online payment portal facilitating swift transactions with features like sending money, transaction records, and inviting contacts. Utilizing HTML, CSS, JavaScript, and Bootstrap, it ensures a responsive interface. JSON server manages data, enabling user authentication via fetch and local storage for seamless data transmission.</p>
-          <div class="project-tech-stack"><img src="./assets/skills/html.svg"/><img src="./assets/skills/css.svg"/><img src="./assets/skills/javascript.svg"/></div>
-          <a href="https://github.com/uvsingh007/web-dev-ratna-8765" target="_blank" class="project-github-link red">Github Repo</a>
-          <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" target="_blank" class="project-depolyed-link red">Deployed Link</a>
+          <p class="project-description">
+            Digital Pay is an online payment portal facilitating swift
+            transactions with features like sending money, transaction
+            records, and inviting contacts. Utilizing HTML, CSS, JavaScript,
+            and Bootstrap, it ensures a responsive interface. JSON server
+            manages data, enabling user authentication via fetch and local
+            storage for seamless data transmission.
+          </p>
+          <div class="project-tech-stack">
+            <img src="./assets/skills/html.svg" /><img src="./assets/skills/css.svg" /><img
+              src="./assets/skills/javascript.svg" />
+          </div>
+          <a href="https://github.com/uvsingh007/web-dev-ratna-8765" target="_blank"
+            class="project-github-link red">Github Repo</a>
+          <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" target="_blank"
+            class="project-depolyed-link red">Deployed Link</a>
         </div>
       </div>
       <div class="project-card">
@@ -158,55 +225,77 @@
         <div class="pro-cont">
           <h1 class="boldtext project-num">04</h1>
           <h3 class="project-title boldtext">Apex Crafts</h3>
-          <p class="project-description boldtext">Apex Crafts is an online portfolio builder website designed to establish users' online presence effectively. Utilizing vibrant colors and smooth transitions, the desktop version offers a user-friendly and interactive experience. Its purpose is to showcase the services and projects of the Apex Crafts agency, aiding in client attraction and providing easily accessible online presence.</p>
-          <div class="project-tech-stack"><img src="./assets/skills/html.svg"/><img src="./assets/skills/css.svg"/></div>
-          <a href="https://github.com/uvsingh007/hissing-copper-9121" target="_blank" class="project-github-link">Github Repo</a>
-          <a href="https://hissing-copper-9121.vercel.app/" target="_blank" class="project-depolyed-link">Deployed Link</a>
+          <p class="project-description boldtext">
+            Apex Crafts is an online portfolio builder website designed to
+            establish users' online presence effectively. Utilizing vibrant
+            colors and smooth transitions, the desktop version offers a
+            user-friendly and interactive experience. Its purpose is to
+            showcase the services and projects of the Apex Crafts agency,
+            aiding in client attraction and providing easily accessible online
+            presence.
+          </p>
+          <div class="project-tech-stack">
+            <img src="./assets/skills/html.svg" /><img src="./assets/skills/css.svg" />
+          </div>
+          <a href="https://github.com/uvsingh007/hissing-copper-9121" target="_blank" class="project-github-link">Github
+            Repo</a>
+          <a href="https://hissing-copper-9121.vercel.app/" target="_blank" class="project-depolyed-link">Deployed
+            Link</a>
         </div>
       </div>
     </div>
   </section>
   <section class="statistics" id="statistics">
-    <h1 class="section-title">My <span class="red boldtext">Statistics</span></h1>
-
+    <h1 class="section-title">
+      Github <span class="red boldtext">Statistics</span>
+    </h1>
     <div class="statistics-container">
+      <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=uvsingh007"
+        alt="github-stats-card" />
 
-        <img id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=uvsingh007"
-            alt="github-stats-card">
-    
-        <img id="github-top-langs"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=uvsingh007&langs_count=4&theme=city_light&include_all_commits=true&count_private=true&layout=compact"
-            alt="github-top-langs">
-    
-        <img id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=uvsingh007&ring=5094f0&currStreakLabel=5094f0&fire=5094f0&theme=city_light"
-            alt="github-streak-stats">
+      <img id="github-top-langs"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=uvsingh007&langs_count=4&theme=city_light&include_all_commits=true&count_private=true&layout=compact"
+        alt="github-top-langs" />
+
+      <img id="github-streak-stats"
+        src="https://github-readme-streak-stats.herokuapp.com/?user=uvsingh007&ring=5094f0&currStreakLabel=5094f0&fire=5094f0&theme=city_light"
+        alt="github-streak-stats" />
     </div>
-    <div  class="react-activity-calendar calendar">
-           <img src="https://ghchart.rshah.org/uvsingh007" alt="">
+    <img style="width: 100%" src="https://ghchart.rshah.org/uvsingh007" alt="" />
+  </section>
+  <section id="contact">
+    <h1>Contact <span class="boldtext red" >Me</span> </h1>
+    <div class="contact-cont">
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name"/>
+        <input type="text" placeholder="Email"/>
+        <textarea placeholder="Message" rows="5"></textarea>
+        <button type="submit">Submit</button>
+      </div>
+      <div class="contact-info">
+        <h2>Let's Connect</h2>
+        <p>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+        <div class="contact-email"><img src="./assets/email.svg"/> <p>mr.uvsingh@yahoo.com</p> </div>
+        <div class="contact-phone"><img src="./assets/phone.svg" /><span>+918512856025</span></div>
+        <div class="contact-loc"><img src="./assets/location.svg" /><span>Delhi, India</span></div>
+      </div>
     </div>
-
-
-</section>
   </section>
 </body>
 <script src="./script.js"></script>
 <script>
   GitHubCalendar(".calendar", "uvsingh007");
-  // or enable responsive functionality
   GitHubCalendar(".calendar", "uvsingh007", { responsive: true });
 </script>
 <script>
-  // or enable responsive functionality
   document.addEventListener("DOMContentLoaded", function () {
-GitHubCalendar(".calendar", "uvsingh007", {
-  responsive: true,
-  global_stats: true,
-  tooltips: true,
-});
-});
-
+    GitHubCalendar(".calendar", "uvsingh007", {
+      responsive: true,
+      global_stats: true,
+      tooltips: true,
+    });
+  });
 </script>
 <script src="https://cdn.jsdelivr.net/npm/github-calendar@2.0.0/dist/github-calendar.min.js"></script>
+
 </html>
