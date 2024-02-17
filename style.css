@@ -206,21 +206,25 @@
 
 .pro-cards{
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card{
+    height: max-content;
     color:white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     justify-content: center;
     align-items: center;
-    margin-top:30px;
+    padding-top: 30px;
 }
 
 .pro-img{
     filter:grayscale(100%);
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .pro-img:hover{
@@ -239,19 +243,18 @@
 
 .project-num{
     font-size: 30px;
-    margin-bottom: 10px;
-    
+    padding-bottom: 10px;
 }
 
 .project-title{
     font-size: 40px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .project-description{
     line-height: 25px;
     letter-spacing: 0.7px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     color:#71717a;
 }
 
@@ -259,7 +262,7 @@
     height: 40px;
     filter: grayscale(100%);
     cursor:pointer;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .project-tech-stack>img:hover{
@@ -268,20 +271,48 @@
     transition: all 0.2s ease-in-out;
 }
 
-.project-github-link{
+.project-github-link,.project-depolyed-link{
     text-decoration: none;
     padding:10px;
     color: #ef4444;
     border-radius: 10px;
-    
+    border: 1px solid #ef4444;
+    margin-right: 20px;
+    transition: all 0.5s ease-in-out;
 }
 
-.project-depolyed-link{
-    text-decoration: none;
-    padding:10px;
-    color: #ef4444;
+.project-github-link:hover, .project-depolyed-link:hover{
+    background-color: #ef4444;
+    color:white;
 }
 
 .red{
     color: #ef4444;
+}
+
+#statistics{
+    padding: 8% 5%;
+    text-align: center;
+}
+
+#statistics>h1{
+    font-size: 50px;
+    margin-bottom: 30px;  
+}
+
+#statistics>h3{
+    font-size: 30px;  
+    margin-bottom: 50px; 
+}
+
+.statistics-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.statistics-container>img{
+    height: 100%;
+    width: 100%;
+    filter:grayscale(100%);
 }
