@@ -337,10 +337,6 @@
     filter:grayscale(0%);
 }
 
-.calendar{
-    height: unset !important;
-}
-
 #contact{
     background-color: black;
     padding: 8% 5%;
