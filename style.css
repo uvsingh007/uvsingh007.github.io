@@ -141,6 +141,12 @@
     flex-shrink: 0;
 }
 
+.about-cont>.resume-div{
+    background-color: #ef4444;
+    color: white;
+    text-align: center;
+}
+
 .about-cont>h1{
     font-size:50px;
     text-align: center;
