@@ -12,27 +12,35 @@
 <body>
   <header class="header">
     <nav id="nav-menu">
-      <div id="logo">
+      <!-- <div id="logo"> -->
         <img id="logo-img" src="./assets/logobg.png" alt="logo" />
+      <!-- </div> -->
+      <div class="logo-menu">
+        <img class="menu-icon" src="./assets/menu.svg"/>
       </div>
-      <div class="nav-links">
-        <a href="#home" class="nav-link home">Home</a>
-        <a href="#about" class="nav-link about">About Me</a>
-        <a href="#skills" class="nav-link skills">Skills</a>
-        <a href="#projects" class="nav-link projects">Projects</a>
-        <a href="#contact" class="nav-link contact">Contact Me</a>
+      <div class="logo-close hid">
+        <img class="menu-icon" src="./assets/close.svg"/>
       </div>
-      <button id="resume-button-1" class="resume-div">
-        <a href="./assets/resume/Yuvraj-Singh-Resume.pdf"
-          target="_blank" download="Yuvraj-Singh-Resume.pdf" class="nav-link resume" id="resume-link-1"
-          >Resume
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M16.5 11.5V12.5C16.5 13.9001 16.5 14.6002 16.2275 15.135C15.9878 15.6054 15.6054 15.9878 15.135 16.2275C14.6002 16.5 13.9001 16.5 12.5 16.5H5.5C4.09987 16.5 3.3998 16.5 2.86502 16.2275C2.39462 15.9878 2.01217 15.6054 1.77248 15.135C1.5 14.6002 1.5 13.9001 1.5 12.5V11.5M13.1667 7.33333L9 11.5M9 11.5L4.83333 7.33333M9 11.5V1.5"
-              stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg></a>
+      <div class="menu hid">
+        <div class="nav-links">
+          <a href="#home" class="nav-link home">Home</a>
+          <a href="#about" class="nav-link about">About</a>
+          <a href="#skills" class="nav-link skills">Skills</a>
+          <a href="#projects" class="nav-link projects">Projects</a>
+          <a href="#contact" class="nav-link contact">Contact</a>
+        </div>
+        <button id="resume-button-1" class="resume-div">
+          <a href="./assets/resume/Yuvraj-Singh-Resume.pdf"
+            target="_blank" download="Yuvraj-Singh-Resume.pdf" class="nav-link resume" id="resume-link-1"
+            >Resume
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.5 11.5V12.5C16.5 13.9001 16.5 14.6002 16.2275 15.135C15.9878 15.6054 15.6054 15.9878 15.135 16.2275C14.6002 16.5 13.9001 16.5 12.5 16.5H5.5C4.09987 16.5 3.3998 16.5 2.86502 16.2275C2.39462 15.9878 2.01217 15.6054 1.77248 15.135C1.5 14.6002 1.5 13.9001 1.5 12.5V11.5M13.1667 7.33333L9 11.5M9 11.5L4.83333 7.33333M9 11.5V1.5"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg></a>
         </button>
+      </div>
     </nav>
   </header>
   <section id="home">
@@ -72,27 +80,29 @@
     </div>
   </section>
   <section id="about" class="about section">
-    <div class="about-img">
-      <img class="home-img" src="./assets/myself.jpg" />
-    </div>
-    <div class="about-cont">
-      <h1>About <span class="boldtext red">Me</span></h1>
-      <p id="user-detail-intro">
-        Hey there! 👋 I'm Yuvraj Singh, a passionate full-stack web developer
-        based in Delhi, India. With a unique blend of creativity and technical
-        expertise, I specialize in crafting elegant and efficient solutions to
-        bring ideas to life on the web. As a full-stack developer, I possess
-        proficiency in both front-end and back-end technologies, allowing me
-        to seamlessly integrate sleek and responsive interfaces using HTML,
-        CSS, and JavaScript with robust server-side applications built on
-        frameworks like Node.js. I thrive on tackling challenges at every
-        layer of the stack, whether it's optimizing database performance,
-        troubleshooting complex issues, or building a sleek e-commerce
-        platform. I firmly believe in the power of collaboration and
-        communication, and I make it a priority to understand the unique needs
-        of each project. By doing so, I strive to deliver tailor-made
-        solutions that not only meet but exceed expectations.
-      </p>
+    <h1>About <span class="boldtext red">Me</span></h1>
+    <div class="about-div">
+      <div class="about-img">
+        <img class="home-img" src="./assets/myself.jpg" />
+      </div>
+      <div class="about-cont">
+        <p id="user-detail-intro">
+          Hey there! 👋 I'm Yuvraj Singh, a passionate full-stack web developer
+          based in Delhi, India. With a unique blend of creativity and technical
+          expertise, I specialize in crafting elegant and efficient solutions to
+          bring ideas to life on the web. As a full-stack developer, I possess
+          proficiency in both front-end and back-end technologies, allowing me
+          to seamlessly integrate sleek and responsive interfaces using HTML,
+          CSS, and JavaScript with robust server-side applications built on
+          frameworks like Node.js.<span class="hid">I thrive on tackling challenges at every
+            layer of the stack, whether it's optimizing database performance,
+            troubleshooting complex issues, or building a sleek e-commerce
+            platform. I firmly believe in the power of collaboration and
+            communication, and I make it a priority to understand the unique needs
+            of each project. By doing so, I strive to deliver tailor-made
+            solutions that not only meet but exceed expectations.</span> 
+        </p>
+      </div>
     </div>
   </section>
   <section id="skills">
@@ -291,10 +301,15 @@
       </div>
     </div>
   </section>
+  <footer>
+    © Made by Yuvraj Singh 
+  </footer>
   <script>
     const resumeone = document.getElementById("resume-button-1");
     const resumetwo = document.getElementById("resume-button-2");
-
+    const open = document.querySelector(".logo-menu");
+    const close = document.querySelector(".logo-close")
+    const menu = document.querySelector(".menu")
     resumeone.addEventListener("click",()=>{
       window.open('https://drive.google.com/file/d/11iMuqy-4XvFHnKdaevoQu_XaGdTsV8-v/view?usp=sharing')
     })
@@ -302,6 +317,19 @@
     resumetwo.addEventListener("click",()=>{
       window.open('https://drive.google.com/file/d/11iMuqy-4XvFHnKdaevoQu_XaGdTsV8-v/view?usp=sharing')
     })
+
+    open.addEventListener("click",()=>{
+      open.classList.toggle("hid")
+      menu.classList.toggle("hid")
+      close.classList.toggle("hid")
+    })
+
+    close.addEventListener("click",()=>{
+      close.classList.toggle("hid")
+      menu.classList.toggle("hid")
+      open.classList.toggle("hid")
+    })
+
   </script>
 </body>
 
