@@ -250,6 +250,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    /* margin-bottom: 50px; */
 }
 
 .pro-img{
@@ -472,8 +473,11 @@ footer{
         grid-template-rows: repeat(2,150px);
         grid-template-columns: repeat(4,150px); 
     }
+    .skills-card{
+        padding: 10px;
+    }
     .project-card{
-        display:unset;
+        display:block;
         padding-bottom: 30px;
     }
     .project-num{
@@ -521,8 +525,8 @@ footer{
         max-width: 250px;
     }
     .cards{
-        grid-template-rows: repeat(4,100px);
-        grid-template-columns: repeat(3,120px);
+        grid-template-rows: repeat(3,100px);
+        grid-template-columns: repeat(3,auto);
     }
     #skills>h1{
         font-size: 40px;
@@ -533,7 +537,7 @@ footer{
 
     #projects>h1{
         font-size: 40px;
-        margin-bottom: unset;
+        margin-bottom: 30px;
     }
     .project-num {
         font-size: 20px;
